@@ -1,0 +1,2 @@
+portfolio meta each line
+highlight nav item when on the page

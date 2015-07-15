@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="34px" height="62px" viewBox="0 0 34 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12002) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrows</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Splash-Slideshow" sketch:type="MSArtboardGroup" transform="translate(-29.000000, -501.000000)" fill="#F5F5F5">
+            <g id="Arrows" sketch:type="MSLayerGroup" transform="translate(29.500000, 500.500000)">
+                <g id="Left-Arrow" transform="translate(17.000000, 31.500000) rotate(-270.000000) translate(-17.000000, -31.500000) translate(-13.500000, 15.000000)" sketch:type="MSShapeGroup">
+                    <path d="M30.5,28.820101 L2.91206384,0.960808101 L0.951449581,2.94070709 L30.3606634,32.6391919 L30.5,32.4984848 L30.6393366,32.6391919 L60.0485504,2.94070709 L58.0879362,0.960808101 L30.5,28.820101 Z" id="Rectangle-50"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

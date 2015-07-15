@@ -1,0 +1,46 @@
+/* Maximum sizes for devices/screens */
+/* Tablets and phones */
+/* Include retina assets */
+body {
+  direction: rtl;
+  unicode-bidi: embed; }
+
+.primary-navigation ul ul {
+  /* Ensure old browsers get styled. */ }
+  @media only screen and (min-width: 769px) {
+    .no-touch .primary-navigation ul ul {
+      padding-right: 10px;
+      padding-left: 0; } }
+  .lt-ie9 .primary-navigation ul ul {
+    padding-right: 10px;
+    padding-left: 0; }
+  @media only screen and (max-width: 768px) {
+    .primary-navigation ul ul {
+      padding-right: 20px;
+      padding-left: 0; } }
+  @media only screen and (max-device-width: 99999px) {
+    .touch .primary-navigation ul ul {
+      padding-right: 20px;
+      padding-left: 0; } }
+  .primary-navigation ul ul .sub-menu-border {
+    right: 0; }
+
+menu, ol, ul {
+  padding: 0 40px 0 0; }
+
+#sidebar ul {
+  padding-right: 0px; }
+
+.comments-area #cancel-comment-reply-link {
+  margin-right: 5px; }
+.comments-area h2 .comment-list .children {
+  padding: 0 60px 0 0; }
+.comments-area .comment-body {
+  margin-right: -16px;
+  padding: 12px 76px 19px 0; }
+.comments-area .comment-author .avatar {
+  right: 0; }
+.comments-area .comment-button {
+  float: right; }
+.comments-area .login p {
+  margin: 0 54px 0 0; }
