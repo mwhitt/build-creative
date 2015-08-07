@@ -3747,6 +3747,12 @@ PRIMARY NAVIGATION
   color: #333 !important;
 }
 
+.primary-navigation > div > ul {
+  /* Ensure old browsers get styled. */ }
+  @media only screen and (max-width: 768px) {
+    .primary-navigation > div > ul {
+      margin: 0; } }
+
 .primary-navigation > div > ul > li {
   display: inline;
   font-weight: bold;
