@@ -3743,6 +3743,10 @@ SITE TITLE
 PRIMARY NAVIGATION
 */
 
+.primary-navigation .current_page_item > a {
+  color: #333 !important;
+}
+
 .primary-navigation > div > ul > li {
   display: inline;
   font-weight: bold;
@@ -4178,4 +4182,3 @@ CONTACT FORM
     float: right;
     padding-top: 0;
     padding-right: 0; }
-
