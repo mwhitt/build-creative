@@ -3689,21 +3689,21 @@ GALLERY INNER
   .lt-ie9 .page-template-contact #gallery .gallery-inner .type-portfolio {
     width: 50%; }
 
-.page-template-portfolio #gallery {
+.portfolio #gallery {
   /* Ensure old browsers get styled. */ }
   @media only screen and (min-width: 769px) {
-    .no-touch .page-template-portfolio #gallery {
+    .no-touch .portfolio #gallery {
       padding-left: 5.2vw;
       padding-right: 5.2vw;
       padding-top: 0;} }
-  .lt-ie9 .page-template-portfolio #gallery {
+  .lt-ie9 .portfolio #gallery {
     padding-left: 5.2vw;
     padding-right: 5.2vw;
     padding-top: 0; }
 
 /* POST TITLE */
 .page-template-homepage .post-title,
-.page-template-portfolio .post-title,
+.portfolio .post-title,
 .page-template-contact .post-title {
   display: none !important;
 }
@@ -3724,18 +3724,18 @@ SITE TITLE
 
 .page-template-contact .site-title,
 .page-template-about .site-title,
-.page-template-portfolio .site-title,
+.portfolio .site-title,
 .single-portfolio .site-title {
   /* Ensure old browsers get styled. */ }
   @media only screen and (min-width: 769px) {
     .no-touch .page-template-contact .site-title,
     .no-touch .page-template-about .site-title,
-    .no-touch .page-template-portfolio .site-title,
+    .no-touch .portfolio .site-title,
     .no-touch .single-portfolio .site-title {
       margin: 0; } }
   .lt-ie9 .page-template-contact .site-title,
   .lt-ie9 .page-template-about .site-title,
-  .lt-ie9 .page-template-portfolio .site-title,
+  .lt-ie9 .portfolio .site-title,
   .lt-ie9 .single-portfolio .site-title {
     margin: 0; }
 
@@ -3786,37 +3786,37 @@ MENU
 
 .page-template-contact .primary-navigation > div > ul,
 .page-template-about .primary-navigation > div > ul,
-.page-template-portfolio .primary-navigation > div > ul,
+.portfolio .primary-navigation > div > ul,
 .single-portfolio .primary-navigation > div > ul {
   /* Ensure old browsers get styled. */ }
   @media only screen and (min-width: 769px) {
     .no-touch .page-template-contact .primary-navigation > div > ul,
     .no-touch .page-template-about .primary-navigation > div > ul,
-    .no-touch .page-template-portfolio .primary-navigation > div > ul,
+    .no-touch .portfolio .primary-navigation > div > ul,
     .no-touch .single-portfolio .primary-navigation > div > ul{
       padding-top: 15px; } }
   .lt-ie9 .page-template-contact .primary-navigation > div > ul,
   .lt-ie9 .page-template-about .primary-navigation > div > ul,
-  .lt-ie9 .page-template-portfolio .primary-navigation > div > ul,
+  .lt-ie9 .portfolio .primary-navigation > div > ul,
   .lt-ie9 .single-portfolio .primary-navigation > div > ul {
     padding-top: 15px; }
 
 .page-template-contact .primary-navigation,
 .page-template-about .primary-navigation,
-.page-template-portfolio .primary-navigation,
+.portfolio .primary-navigation,
 .single-portfolio .primary-navigation {
   /* Ensure old browsers get styled. */ }
   @media only screen and (min-width: 768px) {
     .no-touch .page-template-contact .primary-navigation,
     .no-touch .page-template-about .primary-navigation,
-    .no-touch .page-template-portfolio .primary-navigation,
+    .no-touch .portfolio .primary-navigation,
     .no-touch .single-portfolio .primary-navigation {
       margin: 0;
       position: inherit;
       float: left; } }
   .lt-ie9 .page-template-contact .primary-navigation,
   .lt-ie9 .page-template-about .primary-navigation,
-  .lt-ie9 .page-template-portfolio .primary-navigation,
+  .lt-ie9 .portfolio .primary-navigation,
   .lt-ie9 .single-portfolio .primary-navigation {
     margin: 0;
     position: inherit;
@@ -3824,33 +3824,33 @@ MENU
   @media only screen and (max-width: 768px) {
     .page-template-contact .primary-navigation,
     .page-template-about .primary-navigation,
-    .page-template-portfolio .primary-navigation,
+    .portfolio .primary-navigation,
     .single-portfolio .primary-navigation,
     .page-template-homepage .primary-navigation {
       text-align: center; } }
   @media only screen and (max-device-width: 99999px) {
     .page-template-contact .primary-navigation,
     .page-template-about .primary-navigation,
-    .page-template-portfolio .primary-navigation,
+    .portfolio .primary-navigation,
     .single-portfolio .primary-navigation {
       text-align: center; } }
 
 .page-template-contact .primary-navigation .menu-main-container,
 .page-template-about .primary-navigation .menu-main-container,
-.page-template-portfolio .primary-navigation .menu-main-container,
+.portfolio .primary-navigation .menu-main-container,
 .single-portfolio .primary-navigation .menu-main-container {
   /* Ensure old browsers get styled. */ }
   @media only screen and (max-width: 768px) {
     .page-template-contact .primary-navigation .menu-main-container,
     .page-template-about .primary-navigation .menu-main-container,
-    .page-template-portfolio .primary-navigation .menu-main-container,
+    .portfolio .primary-navigation .menu-main-container,
     .single-portfolio .primary-navigation .menu-main-container,
     .page-template-homepage .primary-navigation .menu-main-container {
       display: inline-block; } }
   @media only screen and (max-device-width: 99999px) {
     .page-template-contact .primary-navigation .menu-main-container,
     .page-template-about .primary-navigation .menu-main-container,
-    .page-template-portfolio .primary-navigation .menu-main-container,
+    .portfolio .primary-navigation .menu-main-container,
     .single-portfolio .primary-navigation .menu-main-container {
       display: inline-block; } }
 
@@ -3860,13 +3860,15 @@ SITE BRANDING
 
 .page-template-contact .site-branding,
 .page-template-about .site-branding,
-.page-template-portfolio .site-branding,
+.portfolio .site-branding,
+.tax-portfolio-type .site-branding,
 .single-portfolio .site-branding {
   /* Ensure old browsers get styled. */ }
   @media only screen and (min-width: 769px) {
     .no-touch .page-template-contact .site-branding,
     .no-touch .page-template-about .site-branding,
-    .no-touch .page-template-portfolio .site-branding,
+    .no-touch .portfolio .site-branding,
+    .no-touch .tax-portfolio-type .site-branding,
     .no-touch .single-portfolio .site-branding {
       padding-bottom: 0;
       margin-bottom: 0;
@@ -3875,7 +3877,8 @@ SITE BRANDING
       max-width: 150px; } }
   .lt-ie9 .page-template-contact .site-branding,
   .lt-ie9 .page-template-about .site-branding,
-  .lt-ie9 .page-template-portfolio .site-branding,
+  .lt-ie9 .portfolio .site-branding,
+  .lt-ie9 .tax-portfolio-type .site-branding,
   .lt-ie9 .single-portfolio .site-branding {
     padding-bottom: 0;
     margin-bottom: 0;
@@ -3899,13 +3902,13 @@ SITE HEADER
 
 .page-template-contact .site-header,
 .page-template-about .site-header,
-.page-template-portfolio .site-header,
+.portfolio .site-header,
 .single-portfolio .site-header {
   /* Ensure old browsers get styled. */ }
   @media only screen and (min-width: 769px) {
     .no-touch .page-template-contact .site-header,
     .no-touch .page-template-about .site-header,
-    .no-touch .page-template-portfolio .site-header,
+    .no-touch .portfolio .site-header,
     .no-touch .single-portfolio .site-header {
       height: auto;
       width: auto;
@@ -3915,7 +3918,7 @@ SITE HEADER
       top: 0; } }
   .lt-ie9 .page-template-contact .site-header,
   .lt-ie9 .page-template-about .site-header,
-  .lt-ie9 .page-template-portfolio .site-header,
+  .lt-ie9 .portfolio .site-header,
   .lt-ie9 .single-portfolio .site-header {
       height: auto;
       width: auto;
@@ -3984,26 +3987,26 @@ CONTENT
       margin: 0 0 0 0;
       padding: 0 1.875vw 1.875vw; } }
 
-.page-template-portfolio #content,
-.page-template-portfolio #infinite-footer,
+.portfolio #content,
+.portfolio #infinite-footer,
 .single-portfolio #content,
 .single-portfolio #infinite-footer, {
   padding: 0;
   /* Ensure old browsers get styled. */ }
   @media only screen and (min-width: 769px) {
-    .no-touch .page-template-portfolio #content,
-    .no-touch .page-template-portfolio #infinite-footer,
+    .no-touch .portfolio #content,
+    .no-touch .portfolio #infinite-footer,
     .no-touch .single-portfolio #content,
     .no-touch .single-portfolio #infinite-footer {
       margin: 0 0 0 0; } }
-  .lt-ie9 .page-template-portfolio #content,
-  .lt-ie9 .page-template-portfolio #infinite-footer,
+  .lt-ie9 .portfolio #content,
+  .lt-ie9 .portfolio #infinite-footer,
   .lt-ie9 .single-portfolio #content,
   .lt-ie9 .single-portfolio #infinite-footer {
     margin: 0 0 0 0; }
   @media only screen and (min-width: 1271px) {
-    .no-touch .page-template-portfolio #content,
-    .no-touch .page-template-portfolio #infinite-footer,
+    .no-touch .portfolio #content,
+    .no-touch .portfolio #infinite-footer,
     .no-touch .single-portfolio #content,
     .no-touch .single-portfolio #infinite-footer {
       margin: 0 0 0 0; } }
