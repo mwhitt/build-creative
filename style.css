@@ -4147,7 +4147,6 @@ CONTACT FORM
 */
 
 .contact-container {
-  padding: 0 1.875vw;
   /* Ensure old browsers get styled. */ }
   @media only screen and (min-width: 769px) {
     .no-touch .contact-container {
@@ -4156,6 +4155,12 @@ CONTACT FORM
   .lt-ie9 .contact-container {
     width: 45%;
     float: left; }
+  @media only screen and (max-width: 768px) {
+    .contact-container {
+      padding: 0 1.875vw; } }
+  @media only screen and (max-device-width: 99999px) {
+    .touch .contact-container {
+      padding: 0 1.875vw; } }
 
 .page-template-contact #gallery {
   /* Ensure old browsers get styled. */ }
