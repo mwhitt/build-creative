@@ -475,7 +475,6 @@ x-object-fit > .x-object-fit-taller, x-object-fit > .x-object-fit-wider {
       width: 100%;
       margin: 0 0 91px 0;
       padding: 0;
-      border-bottom: 1px solid #ECECEC;
       position: relative; }
       .touch .site-header .contact {
         width: 100%; } }
@@ -770,7 +769,7 @@ x-object-fit > .x-object-fit-taller, x-object-fit > .x-object-fit-wider {
       z-index: 200; }
       .primary-navigation.active {
         display: block; } }
-  @media only screen and (max-device-width: 99999px) {
+  /*@media only screen and (max-device-width: 99999px) {
     .touch .primary-navigation {
       padding: 0;
       display: none;
@@ -782,7 +781,7 @@ x-object-fit > .x-object-fit-taller, x-object-fit > .x-object-fit-wider {
       width: 100%;
       z-index: 200; }
       .touch .primary-navigation.active {
-        display: block; } }
+        display: block; } }*/
   @media only screen and (max-width: 500px) {
     .primary-navigation {
       font-size: 20px; } }
@@ -3768,7 +3767,7 @@ MENU
   margin-top: 35px;
   /* Ensure old browsers get styled. */ }
   @media only screen and (max-width: 768px) {
-    .no-touch .page-template-homepage .primary-navigation .menu {
+    .page-template-homepage .primary-navigation .menu {
       margin-left: 0;
       max-width: 313px;
       margin: 0 auto; } }
@@ -4148,6 +4147,7 @@ CONTACT FORM
 */
 
 .contact-container {
+  padding: 0 1.875vw;
   /* Ensure old browsers get styled. */ }
   @media only screen and (min-width: 769px) {
     .no-touch .contact-container {
