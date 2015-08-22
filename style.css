@@ -465,7 +465,7 @@ x-object-fit > .x-object-fit-taller, x-object-fit > .x-object-fit-wider {
   @media only screen and (max-width: 768px) {
     .site-header {
       width: 100%;
-      margin: 0 0 91px 0;
+      margin: 0;
       padding: 0;
       position: relative; }
       .site-header .contact {
@@ -473,7 +473,7 @@ x-object-fit > .x-object-fit-taller, x-object-fit > .x-object-fit-wider {
   @media only screen and (max-device-width: 99999px) {
     .touch .site-header {
       width: 100%;
-      margin: 0 0 91px 0;
+      margin: 0;
       padding: 0;
       position: relative; }
       .touch .site-header .contact {
@@ -503,10 +503,10 @@ x-object-fit > .x-object-fit-taller, x-object-fit > .x-object-fit-wider {
     height: 100%; }
   @media only screen and (max-width: 768px) {
     .site-header-dimmer {
-      padding: 5%; } }
+      padding: 0; } }
   @media only screen and (max-device-width: 99999px) {
     .touch .site-header-dimmer {
-      padding: 5%; } }
+      padding: 0; } }
   .no-sticky .site-header-dimmer {
     height: auto; }
   .site-header-dimmer.twenty {
@@ -620,10 +620,12 @@ x-object-fit > .x-object-fit-taller, x-object-fit > .x-object-fit-wider {
     color: #FFFFFF; }
   @media only screen and (max-width: 768px) {
     .site-title {
-      font-size: 32px; } }
+      font-size: 32px;
+      margin: 80px 0; } }
   @media only screen and (max-device-width: 99999px) {
     .touch .site-title {
-      font-size: 32px; } }
+      font-size: 32px;
+      margin: 80px 0; } }
   @media only screen and (min-width: 769px) and (max-width: 1020px) {
     .no-touch .site-title {
       font-size: 32px; } }
@@ -652,6 +654,14 @@ x-object-fit > .x-object-fit-taller, x-object-fit > .x-object-fit-wider {
     height: auto;
     display: block;
     margin: 0 auto; }
+    @media only screen and (max-width: 768px) {
+      .site-title .logo-image {
+        margin-left: 6%;
+        max-width: 94%; } }
+    @media only screen and (max-device-width: 99999px) {
+      .touch .site-title .logo-image {
+        margin-left: 6%;
+        max-width: 94%; } }
 
 .site-description {
   margin: 0;
@@ -759,14 +769,12 @@ x-object-fit > .x-object-fit-taller, x-object-fit > .x-object-fit-wider {
       line-height: 1.5; } }
   @media only screen and (max-width: 768px) {
     .primary-navigation {
-      padding: 0;
+      padding: 5vw 0;
       font-weight: 300;
       line-height: 1.5;
-      position: absolute;
       left: 0;
       top: 100%;
-      width: 100%;
-      z-index: 200; }
+      width: 100%; }
       .primary-navigation.active {
         display: block; } }
   /*@media only screen and (max-device-width: 99999px) {
@@ -784,13 +792,13 @@ x-object-fit > .x-object-fit-taller, x-object-fit > .x-object-fit-wider {
         display: block; } }*/
   @media only screen and (max-width: 500px) {
     .primary-navigation {
-      font-size: 20px; } }
+      font-size: 18px; } }
   @media only screen and (min-width: 501px) and (max-width: 768px) {
     .primary-navigation {
-      font-size: 20px; } }
+      font-size: 18px; } }
   @media only screen and (min-width: 501px) and (max-device-width: 99999px) {
     .touch .primary-navigation {
-      font-size: 20px; } }
+      font-size: 18px; } }
   .primary-navigation.expanded .sub-menu-wrap {
     height: auto !important; }
     .primary-navigation.expanded .sub-menu-wrap .children, .primary-navigation.expanded .sub-menu-wrap .sub-menu {
@@ -2191,7 +2199,7 @@ article:not(.portfolio-post) .full-image {
         text-align: center; } }
   @media only screen and (max-width: 768px) {
     #gallery {
-      padding-top: 20px !important; } }
+      padding-top: 50px !important; } }
   @media only screen and (min-width: 501px) and (max-width: 768px) {
     #gallery {
       padding-right: 5%;
@@ -3716,11 +3724,17 @@ SITE TITLE
   /* Ensure old browsers get styled. */ }
   @media only screen and (min-width: 769px) {
     .no-touch .page-template-homepage .site-title {
-      margin-top: 130px;
-      margin-left: 1.875vw; } }
+      margin-top: 14vh; } }
   .lt-ie9 .page-template-homepage .site-title {
-    margin-top: 130px;
-    margin-left: 1.875vw; }
+    margin-top: 14vh; }
+
+.page-template-homepage .site-title .logo-image {
+  /* Ensure old browsers get styled. */ }
+  @media only screen and (min-width: 769px) {
+    .no-touch .page-template-homepage .site-title .logo-image {
+      padding: 0 3.7vw; } }
+  .lt-ie9 .page-template-homepage .site-title .logo-image {
+      padding: 0 3.7vw; }
 
 .page-template-contact .site-title,
 .page-template-about .site-title,
@@ -3822,28 +3836,30 @@ MENU
     .no-touch .portfolio .primary-navigation,
     .no-touch .single-portfolio .primary-navigation {
       margin: 0;
-      position: inherit;
-      float: left; } }
+      position: absolute;
+      left: 190px; } }
   .lt-ie9 .page-template-contact .primary-navigation,
   .lt-ie9 .page-template-about .primary-navigation,
   .lt-ie9 .portfolio .primary-navigation,
   .lt-ie9 .single-portfolio .primary-navigation {
     margin: 0;
-    position: inherit;
-    float: left; }
+    position: absolute;
+    left: 190px; }
   @media only screen and (max-width: 768px) {
     .page-template-contact .primary-navigation,
     .page-template-about .primary-navigation,
     .portfolio .primary-navigation,
     .single-portfolio .primary-navigation,
     .page-template-homepage .primary-navigation {
-      text-align: center; } }
+      text-align: center;
+      margin: 40px 0; } }
   @media only screen and (max-device-width: 99999px) {
     .page-template-contact .primary-navigation,
     .page-template-about .primary-navigation,
     .portfolio .primary-navigation,
     .single-portfolio .primary-navigation {
-      text-align: center; } }
+      text-align: center;
+      margin: 40px 0; } }
 
 .page-template-contact .primary-navigation .menu-main-container,
 .page-template-about .primary-navigation .menu-main-container,
@@ -3883,7 +3899,6 @@ SITE BRANDING
       padding-bottom: 0;
       margin-bottom: 0;
       margin-top: 0;
-      float: left;
       max-width: 150px; } }
   .lt-ie9 .page-template-contact .site-branding,
   .lt-ie9 .page-template-about .site-branding,
@@ -3893,7 +3908,6 @@ SITE BRANDING
     padding-bottom: 0;
     margin-bottom: 0;
     margin-top: 0;
-    float: left;
     max-width: 150px; }
 
 /**

@@ -40,55 +40,27 @@ endif ?>
       <?php zilla_header_start(); ?>
       <div class="site-header-inner clearfix">
 
-        <?php if ( is_page_template( 'homepage.php' ) ) { ?>
+        <?php zilla_nav_before(); ?>
+        <nav class="primary-navigation expanded">
+          <?php wp_nav_menu( array(
+              'depth' => 3,
+              'theme_location' => 'primary',
+          ) ); ?>
+        </nav>
+        <?php zilla_nav_after(); ?>
 
-          <?php zilla_nav_before(); ?>
-          <nav class="primary-navigation expanded">
-            <?php wp_nav_menu( array(
-                'depth' => 3,
-                'theme_location' => 'primary',
-            ) ); ?>
-          </nav>
-          <?php zilla_nav_after(); ?>
-
-          <div class="site-branding">
-            <h1 class="site-title">
-              <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-                <?php if( ! empty( $logo_image ) ) { ?>
-                  <img class="logo-image" src="<?php echo esc_attr( $logo_image ) ?>" alt="<?php bloginfo( 'name' ) ?>">
-                <?php } else { bloginfo( 'name' ); } ?>
-              </a>
-            </h1>
-            <?php if ( $display_tagline ) { ?>
-              <h2 class="site-description <?php if( ! empty( $logo_image ) ) echo 'centered'?>"><?php bloginfo( 'description' ); ?></h2>
-            <?php } ?>
-          </div><!-- .site-branding -->
-
-        <?php } else { ?>
-
-          <div class="site-branding">
-            <h1 class="site-title">
-              <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-                <?php if( ! empty( $logo_image ) ) { ?>
-                  <img class="logo-image" src="<?php echo esc_attr( $logo_image ) ?>" alt="<?php bloginfo( 'name' ) ?>">
-                <?php } else { bloginfo( 'name' ); } ?>
-              </a>
-            </h1>
-            <?php if ( $display_tagline ) { ?>
-              <h2 class="site-description <?php if( ! empty( $logo_image ) ) echo 'centered'?>"><?php bloginfo( 'description' ); ?></h2>
-            <?php } ?>
-          </div><!-- .site-branding -->
-
-          <?php zilla_nav_before(); ?>
-          <nav class="primary-navigation expanded">
-            <?php wp_nav_menu( array(
-                'depth' => 3,
-                'theme_location' => 'primary',
-            ) ); ?>
-          </nav>
-          <?php zilla_nav_after(); ?>
-
-        <?php } ?><!-- end alternative nav placement -->
+        <div class="site-branding">
+          <h1 class="site-title">
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+              <?php if( ! empty( $logo_image ) ) { ?>
+                <img class="logo-image" src="<?php echo esc_attr( $logo_image ) ?>" alt="<?php bloginfo( 'name' ) ?>">
+              <?php } else { bloginfo( 'name' ); } ?>
+            </a>
+          </h1>
+          <?php if ( $display_tagline ) { ?>
+            <h2 class="site-description <?php if( ! empty( $logo_image ) ) echo 'centered'?>"><?php bloginfo( 'description' ); ?></h2>
+          <?php } ?>
+        </div><!-- .site-branding -->
 
         <?php $social_icons = array(
           'bandcamp',
