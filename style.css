@@ -2206,8 +2206,8 @@ article:not(.portfolio-post) .full-image {
       padding-left: 5%; } }
   @media only screen and (min-width: 501px) and (max-device-width: 99999px) {
     .touch #gallery {
-      padding-right: 5%;
-      padding-left: 5%; } }
+      padding-right: 0;
+      padding-left: 0; } }
   @media only screen and (min-width: 769px) {
     .no-touch #gallery {
       padding-left: 1.875vw;
