@@ -170,7 +170,7 @@ function frame_responsive_image( $thumb_data, $thumb_type = 'full' ) {
       <img srcset="%2$s" alt="%3$s" data-title="%4$s" data-desc="%5$s">
     </picture>',
     $thumb_src,
-    $thumb_data['thumb_s'],
+    $thumb_data['thumb_m'],
     $thumb_data['thumb_alt'],
     $thumb_data['thumb_title'],
     $thumb_data['thumb_caption']
