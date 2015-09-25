@@ -1,11 +1,11 @@
-(function($){
+$( document ).ready(function() {
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      var viewportHeight = $(window).height();
+      $(".site-header").css('height', viewportHeight + "px");
+    }
+});
 
-  $( document ).ready(function() {
-      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        var viewportHeight = $(window).height();
-        $(".site-header").css('height', viewportHeight + "px");
-      }
-  });
+(function($){
 
   // instantiate other JS
   new TZ();
