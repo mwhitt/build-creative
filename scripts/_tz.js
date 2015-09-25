@@ -7,7 +7,11 @@
     $( document ).ready(function() {
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
           var viewportHeight = $(window).height();
-          $(".site-header").css('height', viewportHeight + "px");
+          if (viewportHeight > 500) {
+            $(".site-header").css('height', viewportHeight + "px");
+          } else {
+            $(".site-header").css('height', 500 + "px");
+          };
         }
     });
 
