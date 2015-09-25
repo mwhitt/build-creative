@@ -2194,7 +2194,7 @@ article:not(.portfolio-post) .full-image {
   /* Ensure old browsers get styled. */ }
   @media only screen and (max-width: 500px) {
     #gallery {
-      padding-right: 1.875vw; }
+      padding-right: 0; }
       #gallery .gallery-title {
         text-align: center; } }
   @media only screen and (max-width: 768px) {
@@ -2266,8 +2266,8 @@ article:not(.portfolio-post) .full-image {
         .touch #gallery .gallery-inner .type-portfolio {
           width: 100%; } }
     #gallery .gallery-inner .gallery-tile {
-      margin-left: 1.875vw;
-      margin-bottom: 1.875vw;
+      margin-left: 0;
+      margin-bottom: 30px;
       background-color: #eee;
       position: relative; }
       .js #gallery .gallery-inner .gallery-tile {
