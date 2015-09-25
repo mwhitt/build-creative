@@ -4,9 +4,9 @@
 
     $ = jQuery;
 
-    window.addEventListener("orientationchange", function() {
-      setMobileHeaderHeight();
-    }, false);
+    $(window).on("orientationchange",function(){
+      alert("The orientation has changed!");
+    });
 
     $( document ).ready(function() {
       if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
