@@ -5,10 +5,14 @@
     $ = jQuery;
 
     $(window).on("orientationchange",function(){
-      alert("The orientation has changed!");
+      setMobileHeaderHeight();
     });
 
     $( document ).ready(function() {
+      setMobileHeaderHeight();
+    });
+
+    var setMobileHeaderHeight = function() {
       if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         var viewportHeight = $(window).height();
         if (viewportHeight > 500) {
@@ -17,10 +21,6 @@
           $(".site-header").css('height', 650 + "px");
         };
       }
-    });
-
-    var setMobileHeaderHeight = function() {
-      console.log('changed');
     }
 
     function TZ() {
