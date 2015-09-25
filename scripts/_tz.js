@@ -1,16 +1,15 @@
-$( document ).ready(function() {
-  console.log('come on now');
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-      var viewportHeight = $(window).height();
-      $(".site-header").css('height', viewportHeight + "px");
-    }
-});
-
 (function() {
   window.TZ = (function() {
     var $, NAVIGATION_FADE_DURATION;
 
     $ = jQuery;
+
+    $( document ).ready(function() {
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+          var viewportHeight = $(window).height();
+          $(".site-header").css('height', viewportHeight + "px");
+        }
+    });
 
     function TZ() {
       this.$header = $("header");
