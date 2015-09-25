@@ -9,10 +9,6 @@
     }, false);
 
     $( document ).ready(function() {
-      setMobileHeaderHeight();
-    });
-
-    function setMobileHeaderHeight = function() {
       if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         var viewportHeight = $(window).height();
         if (viewportHeight > 500) {
@@ -21,6 +17,10 @@
           $(".site-header").css('height', 650 + "px");
         };
       }
+    });
+
+    function setMobileHeaderHeight = function() {
+      console.log('changed');
     }
 
     function TZ() {
