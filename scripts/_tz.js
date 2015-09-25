@@ -10,7 +10,7 @@
           if (viewportHeight > 500) {
             $(".site-header").css('height', viewportHeight + "px");
           } else {
-            $(".site-header").css('height', 500 + "px");
+            $(".site-header").css('height', 650 + "px");
           };
         }
     });
