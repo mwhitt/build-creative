@@ -4,16 +4,24 @@
 
     $ = jQuery;
 
+    window.addEventListener("orientationchange", function() {
+      setMobileHeaderHeight();
+    }, false);
+
     $( document ).ready(function() {
-        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-          var viewportHeight = $(window).height();
-          if (viewportHeight > 500) {
-            $(".site-header").css('height', viewportHeight + "px");
-          } else {
-            $(".site-header").css('height', 650 + "px");
-          };
-        }
+      setMobileHeaderHeight();
     });
+
+    function setMobileHeaderHeight = function() {
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        var viewportHeight = $(window).height();
+        if (viewportHeight > 500) {
+          $(".site-header").css('height', viewportHeight + "px");
+        } else {
+          $(".site-header").css('height', 650 + "px");
+        };
+      }
+    }
 
     function TZ() {
       this.$header = $("header");
