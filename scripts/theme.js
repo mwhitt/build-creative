@@ -1,11 +1,3 @@
-$( document ).ready(function() {
-  console.log('come on now');
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-      var viewportHeight = $(window).height();
-      $(".site-header").css('height', viewportHeight + "px");
-    }
-});
-
 (function($){
 
   // instantiate other JS
