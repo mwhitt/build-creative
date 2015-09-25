@@ -19,7 +19,7 @@
       }
     });
 
-    function setMobileHeaderHeight = function() {
+    var setMobileHeaderHeight = function() {
       console.log('changed');
     }
 
