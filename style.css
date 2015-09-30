@@ -4110,13 +4110,15 @@ ABOUT TEMPLATE
     float: none;
     min-width: 100%;
     width: 100%;
-    padding: 0 1.875vw; } }
+    padding: 0 1.875vw;
+    margin-bottom: 30px; } }
 @media only screen and (max-device-width: 99999px) {
   .touch .about-mission {
     float: none;
     min-width: 100%;
     width: 100%;
-    padding: 0 1.875vw; } }
+    padding: 0 1.875vw;
+    margin-bottom: 30px; } }
 
 .about-us {
   width: 65%;
