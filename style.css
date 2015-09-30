@@ -4110,15 +4110,13 @@ ABOUT TEMPLATE
     float: none;
     min-width: 100%;
     width: 100%;
-    padding: 0 1.875vw;
-    margin-bottom: 30px; } }
+    padding: 0 1.875vw; } }
 @media only screen and (max-device-width: 99999px) {
   .touch .about-mission {
     float: none;
     min-width: 100%;
     width: 100%;
-    padding: 0 1.875vw;
-    margin-bottom: 30px; } }
+    padding: 0 1.875vw; } }
 
 .about-us {
   width: 65%;
@@ -4154,14 +4152,14 @@ ABOUT TEMPLATE
       min-width: 100%;
       width: 100%;
       padding-right: 0;
-      margin-top: 30px; } }
+      margin-top: 50px; } }
   @media only screen and (max-device-width: 99999px) {
     .touch .about-us div img {
       float: none;
       min-width: 100%;
       width: 100%;
       padding-right: 0;
-      margin-top: 30px; } }
+      margin-top: 50px; } }
 
 .about-name {
   font-weight: bold;
