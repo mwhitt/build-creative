@@ -4146,8 +4146,13 @@ ABOUT TEMPLATE
 
 .about-us div {
   padding: 1.875vw;
-}
-
+/* Ensure old browsers get styled. */ }
+  @media only screen and (max-width: 768px) {
+    .touch .about-us div {
+      padding: 0; } }
+  @media only screen and (max-device-width: 99999px) {
+      .touch .about-us div {
+        padding: 0; } }
 .about-us div img {
   float: left;
   width: 25%;
@@ -4155,7 +4160,7 @@ ABOUT TEMPLATE
   min-width: 200px;
   /* Ensure old browsers get styled. */ }
   @media only screen and (max-width: 768px) {
-    .about-us div img {
+    .touch .about-us div img {
       float: none;
       min-width: 100%;
       width: 100%;
@@ -4171,11 +4176,23 @@ ABOUT TEMPLATE
 
 .about-name {
   font-weight: bold;
-}
+  /* Ensure old browsers get styled. */ }
+  @media only screen and (max-width: 768px) {
+    .touch .about-name {
+      padding: 1.875vw; } }
+  @media only screen and (max-device-width: 99999px) {
+      .touch .about-name {
+        padding: 1.875vw; } }
 
 .about-title {
   font-style: italic;
-}
+  /* Ensure old browsers get styled. */ }
+  @media only screen and (max-width: 768px) {
+    .touch .about-title {
+      padding: 1.875vw; } }
+  @media only screen and (max-device-width: 99999px) {
+      .touch .about-title {
+        padding: 1.875vw; } }
 
 /**
 
