@@ -4145,7 +4145,6 @@ ABOUT TEMPLATE
       margin-left: 0; } }
 
 .about-us div {
-  padding: 1.875vw;
 }
 
 .about-us div img {
@@ -4171,10 +4170,12 @@ ABOUT TEMPLATE
 
 .about-name {
   font-weight: bold;
+  padding: 1.875vw;
 }
 
 .about-title {
   font-style: italic;
+  padding: 1.875vw;
 }
 
 /**
