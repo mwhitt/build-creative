@@ -2189,12 +2189,13 @@ article:not(.portfolio-post) .full-image {
   overflow: hidden;
   margin-top: 1.875vw;
   padding-top: 70px;
+  padding-right: 1.875vw;
   -webkit-transition: padding 0.3s ease-out;
           transition: padding 0.3s ease-out;
   /* Ensure old browsers get styled. */ }
   @media only screen and (max-width: 500px) {
     #gallery {
-      padding-right: 1.875vw; }
+      padding-right: 0; }
       #gallery .gallery-title {
         text-align: center; } }
   @media only screen and (max-width: 768px) {
