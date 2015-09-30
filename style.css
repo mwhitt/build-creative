@@ -4194,6 +4194,14 @@ ABOUT TEMPLATE
       .touch .about-title {
         padding: 1.875vw; } }
 
+.about-us div p {
+/* Ensure old browsers get styled. */ }
+  @media only screen and (max-width: 768px) {
+    .touch .about-us div p {
+      padding: 1.875vw; } }
+  @media only screen and (max-device-width: 99999px) {
+      .touch .about-us div p {
+        padding: 1.875vw; } }
 /**
 
 CONTACT FORM
