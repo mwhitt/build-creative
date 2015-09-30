@@ -3732,9 +3732,9 @@ SITE TITLE
   /* Ensure old browsers get styled. */ }
   @media only screen and (min-width: 769px) {
     .no-touch .page-template-homepage .site-title {
-      margin-top: 14vh; } }
+      margin-top: 12vh; } }
   .lt-ie9 .page-template-homepage .site-title {
-    margin-top: 14vh; }
+    margin-top: 12vh; }
 
 .page-template-homepage .site-title .logo-image {
   /* Ensure old browsers get styled. */ }
