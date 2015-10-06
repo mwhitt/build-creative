@@ -29,7 +29,7 @@ get_header();
       <img src="<?php bloginfo('template_directory'); ?>/images/Sharif.jpg" />
       <span class="about-name">Sharif Nakhleh</span>
       <span class="about-title">Co-Founder / Creative Director</span>
-      <p>Sharif creates concepts, directs, and edits videos at The Build. He&rsquo;s been at it for over 15 years and is versed in the entire process of content creation from concept to web. When he&rsquo;s not distilling a feeling or idea down to its root, he&rsquo;s usually thinking of new ways to tell a story... preferably ones that feature cats, so that he may gain their respect. In the end it&rsquo;s about respect.</p>
+      <p>Sharif creates concepts, directs, and edits videos at The Build. When he&rsquo;s not distilling a feeling or idea down to its root, he&rsquo;s usually thinking of new ways to tell a story... preferably ones that feature cats, so that he may gain their respect. In the end it&rsquo;s about respect.</p>
     </div>
 
     <div class="clearfix single-member">
