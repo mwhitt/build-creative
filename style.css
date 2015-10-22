@@ -475,6 +475,7 @@ x-object-fit > .x-object-fit-taller, x-object-fit > .x-object-fit-wider {
       width: 100%;
       margin: 0;
       padding: 0;
+      height: 1000px;
       position: relative; }
       .touch .site-header .contact {
         width: 100%; } }
