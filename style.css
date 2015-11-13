@@ -792,10 +792,10 @@ x-object-fit > .x-object-fit-taller, x-object-fit > .x-object-fit-wider {
         display: block; } }*/
   @media only screen and (max-width: 500px) {
     .primary-navigation {
-      font-size: 18px; } }
+      font-size: 16px; } }
   @media only screen and (min-width: 501px) and (max-width: 768px) {
     .primary-navigation {
-      font-size: 18px; } }
+      font-size: 16px; } }
   @media only screen and (min-width: 501px) and (max-device-width: 99999px) {
     .touch .primary-navigation {
       font-size: 25px; } }
