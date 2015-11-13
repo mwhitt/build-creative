@@ -3842,8 +3842,11 @@ MENU
 .page-template-about .primary-navigation,
 .portfolio .primary-navigation,
 .single-portfolio .primary-navigation {
+  margin: 0;
+  position: absolute;
+  left: 190px; } }
   /* Ensure old browsers get styled. */ }
-  @media only screen and (min-width: 768px) {
+/*  @media only screen and (min-width: 768px) {
     .no-touch .page-template-contact .primary-navigation,
     .no-touch .page-template-about .primary-navigation,
     .no-touch .portfolio .primary-navigation,
@@ -3872,14 +3875,14 @@ MENU
     .portfolio .primary-navigation,
     .single-portfolio .primary-navigation {
       text-align: center;
-      margin: 40px 0; } }
+      margin: 40px 0; } }*/
 
 .page-template-contact .primary-navigation .menu-main-container,
 .page-template-about .primary-navigation .menu-main-container,
 .portfolio .primary-navigation .menu-main-container,
 .single-portfolio .primary-navigation .menu-main-container {
   /* Ensure old browsers get styled. */ }
-  @media only screen and (max-width: 768px) {
+/*  @media only screen and (max-width: 768px) {
     .page-template-contact .primary-navigation .menu-main-container,
     .page-template-about .primary-navigation .menu-main-container,
     .portfolio .primary-navigation .menu-main-container,
@@ -3891,7 +3894,7 @@ MENU
     .page-template-about .primary-navigation .menu-main-container,
     .portfolio .primary-navigation .menu-main-container,
     .single-portfolio .primary-navigation .menu-main-container {
-      display: inline-block; } }
+      display: inline-block; } }*/
 
 /**
 SITE BRANDING
@@ -3902,8 +3905,12 @@ SITE BRANDING
 .portfolio .site-branding,
 .tax-portfolio-type .site-branding,
 .single-portfolio .site-branding {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  max-width: 150px;
   /* Ensure old browsers get styled. */ }
-  @media only screen and (min-width: 769px) {
+/*  @media only screen and (min-width: 769px) {
     .no-touch .page-template-contact .site-branding,
     .no-touch .page-template-about .site-branding,
     .no-touch .portfolio .site-branding,
@@ -3921,7 +3928,7 @@ SITE BRANDING
     padding-bottom: 0;
     margin-bottom: 0;
     margin-top: 0;
-    max-width: 150px; }
+    max-width: 150px; }*/
 
 /**
 SITE HEADER
