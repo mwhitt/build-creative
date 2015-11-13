@@ -2399,7 +2399,10 @@ article:not(.portfolio-post) .full-image {
   .single-portfolio #main .portfolio-post .post-header {
     text-align: left;
     padding-top: 2.5vw;
-    padding-left: 2.9vw; }
+    /* Ensure old browsers get styled. */ }
+    @media only screen and (min-width: 769px) {
+      .single-portfolio #main .portfolio-post .post-header {
+        padding-left: 2.9vw; } }
   #main .portfolio-post .post-title {
     /* Ensure old browsers get styled. */ }
     @media only screen and (min-width: 769px) {
