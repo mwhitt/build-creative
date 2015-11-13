@@ -3720,7 +3720,7 @@ GALLERY INNER
 
 /* POST TITLE */
 .page-template-homepage .post-title,
-.portfolio .post-title,
+.page-template-portfolio .post-title,
 .page-template-contact .post-title {
   display: none !important;
 }
