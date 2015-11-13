@@ -29,7 +29,7 @@
 
   <?php zilla_post_start(); ?>
 
-  <header class="post-header" style="display:none;">
+  <header class="post-header">
     <h1 class="post-title">
       <a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
     </h1>
