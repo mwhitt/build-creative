@@ -774,7 +774,7 @@ x-object-fit > .x-object-fit-taller, x-object-fit > .x-object-fit-wider {
       font-weight: 300;
       line-height: 1.5;
       left: 0;
-      top: 90px; }
+      top: 100px; }
       .primary-navigation.active {
         display: block; } }
   /*@media only screen and (max-device-width: 99999px) {
@@ -3845,7 +3845,7 @@ MENU
   position: absolute;
   left: 190px; } }
   /* Ensure old browsers get styled. */ }
-/*  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 768px) {
     .no-touch .page-template-contact .primary-navigation,
     .no-touch .page-template-about .primary-navigation,
     .no-touch .portfolio .primary-navigation,
@@ -3861,20 +3861,24 @@ MENU
     position: absolute;
     left: 190px; }
   @media only screen and (max-width: 768px) {
-    .page-template-contact .primary-navigation,
-    .page-template-about .primary-navigation,
-    .portfolio .primary-navigation,
-    .single-portfolio .primary-navigation,
     .page-template-homepage .primary-navigation {
       text-align: center;
-      margin: 40px 0; } }
-  @media only screen and (max-device-width: 99999px) {
+      margin: 40px 0; }
     .page-template-contact .primary-navigation,
     .page-template-about .primary-navigation,
     .portfolio .primary-navigation,
     .single-portfolio .primary-navigation {
-      text-align: center;
-      margin: 40px 0; } }*/
+      margin: 0;
+      position: absolute;
+      left: 160px; } }
+  @media only screen and (max-device-width: 99999px) {
+    .touch .page-template-contact .primary-navigation,
+    .touch .page-template-about .primary-navigation,
+    .touch .portfolio .primary-navigation,
+    .touch .single-portfolio .primary-navigation {
+      margin: 0;
+      position: absolute;
+      left: 160px; } }
 
 .page-template-contact .primary-navigation .menu-main-container,
 .page-template-about .primary-navigation .menu-main-container,
