@@ -774,8 +774,7 @@ x-object-fit > .x-object-fit-taller, x-object-fit > .x-object-fit-wider {
       font-weight: 300;
       line-height: 1.5;
       left: 0;
-      top: 100%;
-      width: 100%; }
+      top: 90px; }
       .primary-navigation.active {
         display: block; } }
   /*@media only screen and (max-device-width: 99999px) {
