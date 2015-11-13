@@ -2390,15 +2390,17 @@ article:not(.portfolio-post) .full-image {
       max-width: none; } }
   @media only screen and (max-width: 500px) {
     #main .portfolio-post .post-header {
-      text-align: center; } }
+      text-align: left;
+      padding-left: 2.9vw; } }
   #main .portfolio-post .post-header .featured-image {
     margin: 0; }
     #main .portfolio-post .post-header .featured-image .thumb-responsive {
       display: block;
       line-height: 0; }
   .single-portfolio #main .portfolio-post .post-header {
-    text-align: center;
-    padding-top: 2.5vw; }
+    text-align: left;
+    padding-top: 2.5vw;
+    padding-left: 2.9vw; }
   #main .portfolio-post .post-title {
     /* Ensure old browsers get styled. */ }
     @media only screen and (min-width: 769px) {
