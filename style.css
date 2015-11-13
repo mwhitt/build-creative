@@ -504,10 +504,10 @@ x-object-fit > .x-object-fit-taller, x-object-fit > .x-object-fit-wider {
     height: 100%; }
   @media only screen and (max-width: 768px) {
     .site-header-dimmer {
-      padding: 0; } }
+      padding: 2.5vw; } }
   @media only screen and (max-device-width: 99999px) {
     .touch .site-header-dimmer {
-      padding: 0; } }
+      padding: 2.5vw; } }
   .no-sticky .site-header-dimmer {
     height: auto; }
   .site-header-dimmer.twenty {
